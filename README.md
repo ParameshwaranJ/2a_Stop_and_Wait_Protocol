@@ -1,14 +1,14 @@
 # 2a_Stop_and_Wait_Protocol
-## AIM 
+## AIM:
 To write a python program to perform stop and wait protocol
-## ALGORITHM
+## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
 3. To create the frame based on the user request.
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
-## PROGRAM
+## PROGRAM:
 ```
 Server.py
 import socket
@@ -47,9 +47,9 @@ for i in range(n):
 
 s.close()
 ```
-## OUTPUT
+## OUTPUT:
 <img width="1897" height="1037" alt="Screenshot 2026-03-16 223013" src="https://github.com/user-attachments/assets/565e6f7f-9b8c-4cd4-8ce5-3f00346fbfa8" />
 <img width="1919" height="990" alt="Screenshot 2026-03-16 223129" src="https://github.com/user-attachments/assets/9da892d7-c820-4b0f-b26c-8b011fa42d1a" />
 
-## RESULT
+## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed.
